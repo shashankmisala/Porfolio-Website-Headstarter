@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shashank Misala - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">SM</div>
+        <div class="logo-text">Portfolio Website</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="mailto:misala.shashank@gmail.com" class="button"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1>
+              <small>Hi I'm</small>
+              Shashank Misala
+            </h1>
+            <span id="element"></span>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+              var typed = new Typed("#element", {
+                strings: [
+                  "A Web Developer",
+                  "A Data Analyst",
+                  "A ML Engineer",
+                  "An AI Enthusiast",
+                  "An Avid Learner",
+                  "A Tech Enthusiast",
+                ],
+                typeSpeed: 40,
+                showCursor: false,
+                loop: true,
+              });
+            </script>
+            <div class="call-to-action">
+              <a href="https://shashank-misala-resume.tiiny.site/" target="_blank" class="button black">
+                View Resume
+              </a>
+              <a href="mailto:misala.shashank@gmail.com" class="button white">
+                Contact Me
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/shashankmisala" target="_blank">
+                <img src="./imgs/github.png" alt="GitHub" width="48" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/shashank-misala/"
+                target="_blank"
+              >
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-yellow">
+          <img
+            src="./imgs/mypic.png"
+            alt="Adrian Twarog"
+            width="100%"
+            height="500px"
+          />
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="JS" width="128" />
+            <img src="./imgs/tf.png" width="128" alt="TensorFlow" />
+            <img src="./imgs/pt.png" width="128" alt="Pytorch" />
+            <img src="./imgs/scrapy.png" width="128" alt="Scrapy" />
+            <img src="./imgs/skl.png" width="128" alt="Scikitlearn" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+            <img src="./imgs/python.png" width="128" alt="Python" />
+            <img src="./imgs/colab.png" width="128" alt="GColab" />
+            <img src="./imgs/mongodb.png" width="128" alt="MongoDB" />
+            <img src="./imgs/mysql.png" width="128" alt="MySQL" />
+            <img src="./imgs/r.png" width="128" alt="R" />
+            <img src="./imgs/azure.png" width="128" alt="Azure" />
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="JS" width="128" />
+            <img src="./imgs/tf.png" width="128" alt="TensorFlow" />
+            <img src="./imgs/pt.png" width="128" alt="Pytorch" />
+            <img src="./imgs/scrapy.png" width="128" alt="Scrapy" />
+            <img src="./imgs/skl.png" width="128" alt="Scikitlearn" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+            <img src="./imgs/python.png" width="128" alt="Python" />
+            <img src="./imgs/colab.png" width="128" alt="GColab" />
+            <img src="./imgs/mongodb.png" width="128" alt="MongoDB" />
+            <img src="./imgs/mysql.png" width="128" alt="MySQL" />
+            <img src="./imgs/r.png" width="128" alt="R" />
+            <img src="./imgs/azure.png" width="128" alt="Azure" />
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <h2>
+          <small>About Me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Machine Learning Skills</h3>
+            <ul>
+              <li>Python</li>
+              <li>R</li>
+              <li>Pytorch</li>
+              <li>Tensorflow</li>
+              <li>Sci-kit Learn</li>
+              <li>Tableau</li>
+              <li>Power BI</li>
+            </ul>
+            <h3>Data & Web Dev Skills</h3>
+            <ul>
+              <li>PySpark</li>
+              <li>Matlab</li>
+              <li>Julia</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit About me</h3>
+            <p>
+              Hi, I'm Shashank Misala, and I'm thrilled to share my journey and
+              experiences with you. As a freshman at Purdue University, I'm
+              pursuing a double major in Applied Statistics and Data Science,
+              with minors in Finance and Computer Science. My journey into the
+              world of technology began five years ago, and it has been an
+              exhilarating ride since then. My passion for Machine Learning and
+              Artificial Intelligence was ignited during a Pre-college Summer
+              Program at Brown University, where I delved deep into Data
+              Science, Machine Learning, and AI. This program not only shaped my
+              technical skills but also fueled my enthusiasm for tackling
+              real-world problems with innovative solutions.
+            </p>
+            <p>
+              Outside the realm of technology, I'm passionate about Photography
+              and Filmmaking, capturing the beauty of the world through my lens.
+              Additionally, I have a keen interest in Investment Banking, where
+              I hope to merge my technical skills with financial acumen to drive
+              impactful decisions. For more information, check out my Resume.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="work-experience container">
+        <h2>Education</h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/highschool.jpg"
+                  alt="Workplace 1 - YouTube Creator"
+                  width="100%"
+                />
+                <figcaption>High School</figcaption>
+              </div>
+            </figure>
+            <h3>International Education Academy</h3>
+            <div>2013-2023</div>
+            <p>High School : Math Physics Chemistry(MPC)</p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/brown.png"
+                  alt="Workplace 2 - Moshi Moshi Marketing"
+                  width="100%"
+                />
+                <figcaption>Brown University</figcaption>
+              </div>
+            </figure>
+            <h3>Brown University Pre-College Summer Program</h3>
+            <div>July'23 - Aug'23</div>
+            <p>Data Science, Machine Learning, AI</p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/purdue.png"
+                  alt="Workplace 3 - Chamber of Commerce"
+                  width="100%"
+                />
+                <figcaption>Purdue University</figcaption>
+              </div>
+            </figure>
+            <h3>Purdue University</h3>
+            <div>2024-2028</div>
+            <p>
+              Major: Applied Statistics and Data Science Minor: Finance and
+              Computer Science
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="projects" class="bento container">
+        <h2>
+          <small> Previous </small>
+          Completed Projects
+        </h2>
+        <div class="bento-grid">
+          <a
+            href="https://github.com/shashankmisala/Diamond-Price-Prediction-Machine-Learning-Model"
+            target="_blank"
+            class="bento-item"
+          >
+            <img src="./imgs/diamond.webp" alt="BGCCI" width="100%" />
+          </a>
+          <a
+            href="https://github.com/shashankmisala/NVIDIA-Stock-Price-Prediction"
+            target="_blank"
+            class="bento-item"
+          >
+            <img src="./imgs/nvidia.png" alt="Churhview" width="100%" />
+          </a>
+          <a
+            href="https://github.com/shashankmisala/Customer-Acquisition-Cost-Analysis"
+            target="_blank"
+            class="bento-item"
+          >
+            <img src="./imgs/cac.png" alt="Harley" width="100%" />
+          </a>
+          <a
+            href="https://github.com/shashankmisala/Health-Insurance-Plan-Prediction-Model"
+            target="_blank"
+            class="bento-item"
+          >
+            <img src="./imgs/hi.jpg" alt="Bunbury" width="100%" />
+          </a>
+          <a
+            href="https://github.com/shashankmisala/Premier-League-Prediction-System"
+            target="_blank"
+            class="bento-item"
+          >
+            <img src="./imgs/IMG_5682.jpeg" alt="Running" width="100%" />
+          </a>
+          <a
+            href="https://github.com/shashankmisala/Movie-Recommendation-System"
+            target="_blank"
+            class="bento-item"
+          >
+            <img
+              src="./imgs/greatest-movies-of-all-time.avif"
+              alt="School"
+              width="100%"
+            />
+          </a>
+        </div>
+      <footer>
+        <div class="footer">
+          <a href="mailto:misala.shashank@gmail.com" class="button">Contact Me</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
